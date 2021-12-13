@@ -1,0 +1,14 @@
+header {
+    position: fixed;
+
+    left: 2vw;
+    top: 1vh;
+}
+
+header img {
+    width: calc((12vw + 12vh)/2);
+}
+
+header img:hover {
+    cursor: pointer;
+}

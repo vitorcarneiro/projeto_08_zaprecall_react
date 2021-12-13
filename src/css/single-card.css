@@ -1,0 +1,149 @@
+.card {
+    width: 392px;
+    height: 575.75px;
+
+    border-radius: 12px;
+ 
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+
+    position: relative;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 12px;
+}
+
+.front-face {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-marker {
+    position: absolute;
+
+    top: -4px;
+    right: 12px;
+}
+
+h1 {
+    margin: auto;
+
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.turn {
+    position: absolute;
+
+    right: 10px;
+    bottom: 10px;
+}
+
+.turn:hover {
+    cursor: pointer;
+}
+
+.back-face {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2 {
+    margin: auto;
+
+    padding: 0 40px;
+
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+.bottom-card-boxes {
+    position: absolute;
+    bottom: 0;
+
+    padding: 0 41px;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-box {
+    width: 65px;
+    height: 48px;
+
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 14px;
+
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.bottom-box:hover {
+    cursor: pointer;
+}
+
+.black {
+    border: 3px solid #000000;
+}
+
+.red {
+    border: 3px solid #F74848;
+}
+
+.green {
+    border: 3px solid #62DB38;
+}
+
+.yellow {
+    border: 3px solid #FFEF61;
+    font-weight: 700 !important;
+}
+
+.question-small { 
+    position: absolute !important;
+    top: 14px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px !important;
+    line-height: 14px;
+    
+    color: #000000;
+}
+
+.hidden {
+    display: none !important;
+}
